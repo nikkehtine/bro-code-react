@@ -18,34 +18,16 @@ body {
     min-height: 100vh;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
 }
 
-input,
-button,
-textarea,
-select {
+input, button, textarea, select {
     font: inherit;
 }
 
-img,
-picture,
-video,
-canvas,
-svg {
+img, picture, video, canvas, svg {
     display: block;
     max-width: 100%;
-}
-
-.button {
-    background-color: hsl(200, 75%, 25%);
-    color: white;
-    padding: 0.5em 1em;
-    border-radius: 0.5rem;
-    border: none;
-    cursor: pointer;
 }

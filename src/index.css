@@ -18,16 +18,33 @@ body {
     min-height: 100vh;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
     font: inherit;
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
     display: block;
     max-width: 100%;
+}
+
+.student {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    margin: 1rem;
 }
